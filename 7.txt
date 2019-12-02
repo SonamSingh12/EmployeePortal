@@ -1,0 +1,12 @@
+7) <class>com.its.ethix.net.shared.entities.EBAccountCreationClass</class> 
+remove @Id 
+8) EBAccountMarginSearch add @Id 
+9) EBAccTypeDesc add @Id and remove serialize 
+10) EBAuditTrailDetails 
+11) EBAuthorisationSetupList, EBChargeCustom, EBBankCebMaxLimits >>remove serialVersionUlD as well 
+
+12) 2019-11-22 16:31:20,900 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - addres! "WFLYCTL0080: Failed services" => {"jboss.persistenceunit.\"FluidCebApp.ear/ETHIX-Net-Services-1.0-SNAPSHOT.jar#pu\"" => "javax.persistence.Persistencel Caused by: javax.persistence.PersistenceException: [PersistenceUnit: pu] Unable to build Hibernate SessionFactory Caused by: org.hibernate.MappingException: Could not determine type for: java.util.List, at table: EBAccountType, for columns: [org.hibernate.mapping.Cc "WFLYCTL0412: Required services that are not installed:" => rjboss.ra.hornetq-ral, "WFLYCTL0180: Services with missing/unavailable dependencies" => rjboss.deployment.subunit.\"FluidCebApp.ear\".\"coarsebo.jar\".component.Interceptingt 
+} 
+13) EBAccountsType, EBAccounts, EBAdvancedSearchCriteria, EBAccountTypeCreationSetup, EBAccountGroupMaintenance, EBBillPayment, EBAuditTrailDetails EBCardHistory, EBAttachment, EBBillPayeeSetup, EBBeneficiary, EBCardStatement, EBChargeCustom, EBCreditCardDetails, EBCreditCardApplication, EBExcludedCurrencies, EBExchangeRateMargin, EBFinanceCaculationResult, EBHoliday, EBlnstrumentChargeCustom, EBMail, EBMarketing, EBOrderCurrency EBPackage, glementCollection(targetClass = T.class ) to fix on this 
+14) EBCreditCard- EBFacilitiesAccount, remove ID 
+ 
